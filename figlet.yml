@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  figlet:
+    lang: dockerfile
+    handler: ./figlet
+    image: functions/figlet:0.1
