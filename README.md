@@ -1,0 +1,2 @@
+# figlet
+Figlet for OpenFaaS
